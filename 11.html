@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NieWei-Resume</title>
+    <!-- 内嵌式引入css -->
+    <style>
+        body {
+            text-align: center;
+        }
+
+        .class1 {
+            color: rgb(128, 128, 145);
+            font-size: 14px
+        }
+
+        #name {
+            font-size: 24px;
+            background-color: #f0f0f0;
+        }
+    </style>
+    <!-- 链入css文件 -->
+    <link href="./s1.css" rel="stylesheet">
+
+    <!-- 内嵌式引入javascript -->
+    <script>
+        console.log("!-- 内嵌式引入javascript --")
+        // alert("提交警告22222222")
+        // confirm('确认跳转吗？22222222222')
+        let i = 0
+        const timer = setInterval(() => {
+            console.log(i)
+            i++
+        }, 1000)
+    </script>
+    <!-- 外链式引入javascript -->
+     <script src="./j1.js" type="text/javascript"></script>
+
+</head>
+
+<body>
+    <h1>个人简历</h1>
+    <hr>
+
+    <!-- 行内式引入javascript -->
+    <input type="button" value="提交" onclick="alert('提交警告')">
+    <a href="javascript:confirm('确认跳转吗？')">点击跳转</a>
+    <!-- 行内式引入css -->
+    <h2>基本信息</h2>
+    <p id="name">姓名：聂威</p>
+    <p>性别：男</p>
+    <p>籍贯：广东中山</p>
+    <p class="class1">出生日期：1991年1月21日</p>
+    <p class="class1">年龄：20</p>
+    <p>毕业学校：澳门大学</p>
+    <p>专业：人工智能技术应用</p>
+    <p class="class1">邮箱：1522129824@qq.com</p>
+    <p class="class1">联系电话：13677214836</p>
+    <p>兴趣爱好：爬山、听歌</p>
+
+    <hr>
+    <h2>教育经历</h2>
+    <p>2023年1月-2024年1月：澳门大学</p>
+    <hr>
+    <h2>工作经历</h2>
+    <p>2020年1月-2023年1月：珠海科技学院</p>
+    <p>2023年1月-2024年1月：广东科学技术职业学院</p>
+
+    <hr>
+    <h2>项目经历</h2>
+    <p>2023年1月-2024年1月：手势鼠标开发</p>
+    <p>2023年1月-2024年1月：脑机接口疲劳检测</p>
+    <p>2023年1月-2024年1月： 无人车自动导航</p>
+    <p>2023年1月-2024年1月：肌电控制系统</p>
+
+    <hr>
+    <h2>参加竞赛</h2>
+    <p>软件杯全国三等奖</p>
+    <p>全国大学生数学建模竞赛 国赛二等奖</p>
+    <p>全国大学生计算机设计大赛 国赛二等奖</p>
+
+</body>
+
+</html>
